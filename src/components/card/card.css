@@ -1,12 +1,30 @@
-.card{ 
-    color: rgb(0, 136, 254);
-}
-
-.info{
-    background-color: bisque;
-
-}
-
-.text{
-    color: rgb(255, 221, 0)
-}
+.card {
+    background-color: #1f2237;
+    color: #ffffff;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin-bottom: 16px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .info {
+    margin-bottom: 8px;
+    width: 80%;
+  }
+  
+  h1 {
+    font-size: 18px;
+    margin-bottom: 4px;
+    color: #ffffff;
+  }
+  
+  .text {
+    font-size: 14px;
+    margin-bottom: 2px;
+    color: #e3e3e3;
+  }
+  

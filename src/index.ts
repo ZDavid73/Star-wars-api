@@ -1,6 +1,5 @@
 import "./components/export"
 import "./screens/dashboard"
-import styles from "./components/card/card.css"
 
 class AppContainer extends HTMLElement {
     constructor(){
@@ -13,7 +12,7 @@ class AppContainer extends HTMLElement {
     }
 
     render() {
-        const something = this.ownerDocument.createElement('div');
+        const something = this.ownerDocument.createElement('app-dashboard');
         this.shadowRoot?.appendChild(something);
     }
 }

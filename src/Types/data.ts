@@ -3,5 +3,6 @@ export interface starWar {
     birth_year: string;
     gender: string;
     height: string;
+    mas:string;
 
 }
